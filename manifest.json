@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "SJTU Calendar Fetcher",
+    "description": "Fetch data daily at a specified time globally",
+    "version": "1.0",
+    "permissions": [
+      "alarms",
+      "notifications",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "48": "icon.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png"
+      }
+    },
+    "options_ui": {
+      "page": "options.html"
+    }
+  }
+  
